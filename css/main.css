@@ -97,3 +97,32 @@ nav{
 }
 
 
+@media only screen and (min-width: 38em) {
+
+h1{
+	text-align: left;
+	margin: 0;
+}
+
+.middle{
+	padding-top: 0;
+}
+nav a{
+	float:right;
+	top:0;
+	margin:0;
+	display: inline-block;
+}
+
+.center{
+	padding-top: 15px;
+}
+
+.grey{
+	padding-top: 1em;
+}
+
+.craters{
+	padding-top: 20px;
+}
+}
