@@ -98,7 +98,7 @@ li{
 }
 
 nav ul{
-	padding: none;
+	padding: 0;
 	margin-left: 0px;
 }
 
@@ -115,6 +115,7 @@ h1{
 	padding-right: 2.5rem;
 }
 
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -140,6 +141,8 @@ nav a{
 	top:0;
 	margin:0;
 	display: inline-block;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
