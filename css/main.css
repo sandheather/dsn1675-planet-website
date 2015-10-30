@@ -1,26 +1,20 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
-  font-family: sans-serif;
-}
-
-*, *::before, *::after {
-	box-sizing: inherit;
+html{
+	font-family: sans-serif;
 }
 
 body{
 	margin: 0;
-	padding: 0;
+	padding:0;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+}
+
+h2{
+	margin:0;
+	text-align: center;
 }
 
 .img-flex{
@@ -28,48 +22,28 @@ body{
 	display:block;
 }
 
-nav ul{
+a{
 	text-decoration: none;
-	padding: 0;
-	margin:0;
-	display: block;
+}
+
+ul{
+	margin: 0;
+}
+
+dd{
+	margin: 0;
 }
 
 nav li a{
-	text-decoration: none;
 	color: #0074d9;
-font-size: 16pt;
-}
-
-li{
-	padding: 5px;
-	padding-right: 130px;
-	margin: 10px
-}
-
-.nav:hover{
-	background-color: #0074d9;
-
+	text-decoration: none;
 }
 
 a:hover{
 	color: #fff;
+	background-color: #0074d9;
 }
 
-
-h1{
-	text-align: center;
-	margin-top: 0;
-	padding-top: 0.5em;
-	font-size: 20pt;
-}
-
-h2{
-	text-align: left;
-	margin: 0;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
 
 .gutter{
 	padding-left: 1rem;
@@ -81,128 +55,22 @@ h2{
 }
 
 .craters{
-	padding-top: 20px;
 	background-color: #efefef;
 }
 
 .light{
 	background-color: #e2e2e2;
-	margin-top: 0;
-	font-size: 20px;
-	text-align: center;
-	padding: 10px;
 }
 
-h3{
-	font-size: 19pt;
-	margin:0;
-}
-
-dd{
-	margin: 0;
-	font-size: 18px;
-}
-
-.describe{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-}
-
-.moons{
-	font-size: 24pt;
-}
-
-.top{
-	font-size: 16pt;
-	padding-top: 0;
+p{
+margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
 
-li{
-	padding: 10px;
-}
-
-nav ul{
-	padding:0;
-	margin-left: 0px;
-}
-
-h1{
-	padding-top: 0;
-}
-
-.nav{
-	display: inline-block;
-}
-
-.gutter{
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-
-}
-
 
 @media only screen and (min-width: 38em) {
 
-h1{
-	text-align: left;
-	padding-left: 30px;
-}
-
-.middle{
-	padding-top: 0;
-}
-
-.venus{
-	padding-bottom: 20px;
-}
-
-li{
-	padding: 5px;
-	padding-right: 5px;
-	padding-left: 5px;
-	margin: 0;
-	padding-top: 10px;
-}
-
-nav{
-	margin-left: 70px;
-}
-
-nav a{
-	float:right;
-	top:0;
-	margin:0;
-	display: inline-block;
-}
-
-.grey{
-	padding-top: 10px;
-}
-
-h2{
-	padding-top: 0;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}
-
-.gutter{
-	margin-bottom: 0;
-}
-
-}
 
 @media only screen and (min-width: 60em) {
 
-nav{
-	margin-left: 120px;
-}
-
-h1{
-	margin: 0;
-}
-
-}
